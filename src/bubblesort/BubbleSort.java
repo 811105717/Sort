@@ -8,22 +8,23 @@ package bubblesort;
  * @date 2019/4/16
  */
 public class BubbleSort {
-    public static void bubbleSort(double arr[]){
-        for (int i = 0; i < arr.length - 1; ++i){
-            for (int j = 0; j < arr.length - 1 - i; ++j){
-                if (arr[j] > arr[j+1]){
+    public static void bubbleSort(double[] arr) {
+        for (int i = 0; i < arr.length - 1; ++i) {
+            for (int j = 0; j < arr.length - 1 - i; ++j) {
+                if (arr[j] > arr[j + 1]) {
                     double temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
         }
     }
+
     public static void main(String[] args) {
-        double[] arr = {2.342,5.23,3.983,8.23,7.4,4.34,9.1,1.98,3.34,2.2,5,7.24,8.09};
+        double[] arr = {2.342, 5.23, 3.983, 8.23, 7.4, 4.34, 9.1, 1.98, 3.34, 2.2, 5, 7.24, 8.09};
         bubbleSort(arr);
         for (double v : arr) {
-            System.out.print(v+"  ");
+            System.out.print(v + "  ");
         }
     }
 }

@@ -1,12 +1,10 @@
 package insertionsort;
 
-import selectionsort.SelectionSort;
-
 /**
  * @author wuyuan
  * @version 1.0
  * @className: InsertionSort
- * @description 描述:
+ * @description 描述:插入排序
  * @date 2019/4/16
  */
 public class InsertionSort {

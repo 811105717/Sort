@@ -1,7 +1,5 @@
 package quicksort;
 
-import jdk.nashorn.internal.objects.annotations.Where;
-
 /**
  * @author wuyuan
  * @version 1.0

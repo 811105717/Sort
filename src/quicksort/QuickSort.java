@@ -4,7 +4,7 @@ package quicksort;
  * @author wuyuan
  * @version 1.0
  * @className: QuickSort
- * @description 描述:
+ * @description 描述:快速排序
  * @date 2019/4/18
  */
 public class QuickSort {
@@ -43,7 +43,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         double[] arr = {2.342, 5.23, 3.983, 8.23, 7.4, 4.34, 9.1, 1.98, 3.34, 2.2, 5, 7.24, 8.09};
-        QuickSort.quickSort(arr, 0, arr.length);
+        QuickSort.quickSort(arr, 0, arr.length - 1);
         for (double v : arr) {
             System.out.print(v + "  ");
         }
